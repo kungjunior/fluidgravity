@@ -20,3 +20,15 @@ A diferencia de los simuladores de gravedad convencionales basados en fuerzas a 
 ## 📖 Referencias
 Este código es el soporte numérico del artículo:
 **"Unificación Cinemática de la Gravedad y la Mecánica Cuántica mediante el Modelo de Flujo Atómico (MFAU)"** publicado en Zenodo https://doi.org/10.5281/zenodo.19672659 
+
+### Instalación rápida
+1. Crea un entorno virtual:
+   `python -m venv venv`
+2. Actívalo:
+   - Windows: `venv\Scripts\activate`
+   - Linux/Mac: `source venv/bin/activate`
+3. Instala todo:
+   `pip install -r requirements.txt`
+4. Lanza el simulador:
+   `python main.py`
+
